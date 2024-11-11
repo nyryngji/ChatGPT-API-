@@ -1,0 +1,6 @@
+import string
+
+x = int(input())
+s = input()
+
+print(''.join([i.upper() if i in string.ascii_lowercase else i.lower() for i in s]))
